@@ -1,0 +1,393 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body#corpo {
+	background: url("imagens/fundo.jpg");
+}
+header#cabecalho {
+	border-bottom: solid 2px gray;
+}
+article#conteudo {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+footer#rodape {
+	border-top: solid 2px gray;
+	text-align: center;
+}
+figure.outrasFotos {
+	/*border: solid 3px rgb(0,0,255);*/
+	background-color: lightgray;
+	text-align: center;
+	box-shadow: 0px 0px 20px #000000;
+	border-radius: 80px;
+}
+figure.foto1 {
+	background-color: lightblue;
+	box-shadow: 6px 6px 6px gray;
+	text-align: center;
+	border-radius: 10px;
+	border: solid 8px #000000;
+	width: 25%;
+	padding-top: 5px;
+	float: right;
+	transition: all 1.5s;
+}
+figure.foto1:hover {
+	transform: rotateZ(10deg);
+}
+figure.foto1 img {
+	width: 95%;
+	height: 150px;
+}
+figure.foto1 h4 {
+	margin-top: -4px;
+	margin-bottom: 0px;
+	background-color: yellow;
+}
+
+
+span.texto {
+	text-align: justify;
+	font-size: 16pt;
+	font-family: "Lobster Two", sans-serif;
+	text-indent: 50px;
+
+}
+
+/*Formatação do menu principal*/
+
+nav#menu h3 {
+	display: none;
+}
+nav#menu ol {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0px;
+	right: 60px;
+}
+nav#menu li {
+	display: inline-block;
+	background-color: lightgray;
+	padding: 10px;
+	margin: 3px;
+	border-radius: 10px;
+	transition: background-color 2s, transform 1s;
+}
+nav#menu li:hover {
+	background-color: darkgray;
+	transform: rotateZ(-15deg);
+}
+nav#menu a {
+	color: black;
+	text-decoration: none;
+}
+nav#menu a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+/*Formatação dos títulos do article*/
+
+article#conteudo h1 {
+	background-color: #808080;
+	text-shadow: 2px 2px 2px #ffff00;
+	font-size: 25pt;
+	text-align: center;
+	transition: all 1s;
+}
+
+article#conteudo h1:hover {
+	letter-spacing: 30px;
+}
+
+/*Formatação do logo da Darpa*/
+
+header#cabecalho img.logo {
+	position: absolute;
+	top: 5px;
+	left: 3px;
+}
+hgroup.titulos h1 {
+	text-transform: uppercase;
+	/*text-decoration: underline;*/
+	font-size: 30pt;
+	letter-spacing: -20px;
+	border-radius: 20px;
+	width: 45%;
+	transition: all 2s;
+}
+hgroup.titulos h1:hover {
+	letter-spacing: 6px;
+	background-color: blue;
+	color: white;
+	box-shadow: 6px 6px 6px gray;
+	margin-left: 9px;
+}
+
+/*Formatação dos Ícones*/
+
+header#cabecalho img.icone {
+	position: absolute;
+	top: 70px;
+	right: 80px;
+}
+
+/*Formatação da tabela*/
+
+table.produto {
+	background-color: white;
+	border: 1px solid green;
+	border-spacing: 0px;
+}
+
+table.produto caption {
+	background-color: gray;
+	font-size: 15pt;
+}
+
+table.produto th {
+	border: 1px solid black;
+}
+
+table.produto td {
+	border: 1px solid red;
+	text-align: center;
+	padding: 10px;
+	transition: border-radius 2s;
+}
+
+table.produto td:hover {
+	background-color: black;
+	color: white;
+	border-radius: 25px;
+}
+
+table.produto figure.hard {
+	margin: 0px;  
+}
+iframe.meu-mapa{
+	width: 100%;
+	height: 500px;
+	border:2px solid #888888;
+	border-radius:10px;
+
+}
+body#corpo {
+	background: url("imagens/fundo.jpg");
+}
+
+/*Formatação do logo do 1A*/
+
+img.img1 {
+	position: absolute;
+	top: 5px;
+	left: 3px;
+	width: 127px;
+}
+hgroup.titulos h1 {
+	text-transform: uppercase;
+	font-size: 30pt;
+	letter-spacing: -23px;
+	border-radius: 20px;
+	width: 47%;
+	transition: all 2s;
+}
+hgroup.titulos h1:hover {
+	letter-spacing: 6px;
+	background-color: #035C64;
+	color: white;
+	box-shadow: 6px 6px 6px gray;
+	margin-left: 9px;
+}
+
+
+/*Formatação do título do article*/
+
+article#conteudo h1 {
+	color: white;
+	background-color: #035C64;
+	text-shadow: 1px 1px 1px white;
+	font-size: 25pt;
+	text-align: center;
+	transition: all 1s;
+}
+
+article#conteudo h1:hover {
+	letter-spacing: 30px;
+}
+
+/*Formatação do texto*/
+
+span.texto {
+	color: #035C64;
+	text-align: center;
+	font-size: 23pt;
+	font-family: chilanka;
+	text-indent: 50px;
+}
+
+/* formatação da tabela */
+
+table.tabela caption{
+	color: white;
+	background-color: #035C64;
+	font-size: 30px;
+}
+
+table.tabela {
+	border: solid 1px black;
+	background-color: white;
+	border-spacing: 0px;
+	margin: 50px;
+	width: 70%;
+}
+
+table.tabela td {
+		border: solid 1px black;
+		padding: 10px;
+		text-align: center;
+}
+
+table.tabela th {
+	border: solid 1px black;
+}
+
+table.tabela td.aqui{
+	border: solid 1px black;
+}
+
+img.all{
+	width: 180px;
+}
+
+
+table.tabela td:hover{
+	background-color: gray;
+	border-radius: 30px;
+	transition: all 2s;
+}
+form.form-darpa {
+	background-color: white;
+	width: 60%;
+	margin: 30px auto;
+	padding: 20px;
+	border-radius: 15px;
+	box-shadow: 6px 6px 10px gray;
+	border: 2px solid #035C64;
+}
+
+form.form-darpa fieldset {
+	border: 2px solid #035C64;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+form.form-darpa legend {
+	background-color: #035C64;
+	color: white;
+	font-weight: bold;
+	padding: 5px 15px;
+	border-radius: 8px;
+	font-size: 14pt;
+}
+
+form.form-darpa label {
+	display: block;
+	margin-top: 12px;
+	font-weight: bold;
+	color: #035C64;
+}
+
+form.form-darpa input {
+	width: 100%;
+	padding: 8px;
+	margin-top: 5px;
+	border: 1px solid gray;
+	border-radius: 6px;
+	box-sizing: border-box;
+}
+
+/* Ajuste para checkbox e radio ficarem lado a lado */
+form.form-darpa input[type="checkbox"],
+form.form-darpa input[type="radio"] {
+	width: auto;
+	margin-right: 5px;
+}
+
+form.form-darpa label.inline {
+	display: inline-block;
+	font-weight: normal;
+	color: black;
+	margin-right: 15px;
+}
+
+/* --- Pseudo-classes do Tutorial --- */
+
+/* Campo selecionado (clicado ou via Tab) */
+form.form-darpa input:focus {
+	outline: none;
+	border-color: #035C64;
+	background-color: #e6f4f5;
+}
+
+/* Mouse em cima */
+form.form-darpa input:hover {
+	border-color: black;
+}
+
+/* Campos obrigatórios e opcionais */
+form.form-darpa input:required {
+	border-left: 5px solid #035C64;
+}
+
+form.form-darpa input:optional {
+	border-left: 5px solid lightgray;
+}
+
+/* Conteúdo válido ou inválido */
+form.form-darpa input:valid {
+	border-color: green;
+}
+
+form.form-darpa input:invalid:not(:placeholder-shown) {
+	border-color: red;
+}
+
+/* Campo desativado */
+form.form-darpa input:disabled {
+	background-color: lightgray;
+	color: #555555;
+	cursor: not-allowed;
+}
+
+/* Texto de dica (placeholder) */
+form.form-darpa input::placeholder {
+	color: gray;
+	font-style: italic;
+}
+
+/* Checkbox ou radio marcado */
+form.form-darpa input:checked + label {
+	color: #035C64;
+	font-weight: bold;
+}
+
+/* Botão de enviar (submit) */
+form.form-darpa input[type="submit"] {
+	background-color: #035C64;
+	color: white;
+	font-weight: bold;
+	font-size: 13pt;
+	border: none;
+	margin-top: 20px;
+	padding: 12px;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+form.form-darpa input[type="submit"]:hover {
+	background-color: black;
+	border-radius: 20px;
+}
